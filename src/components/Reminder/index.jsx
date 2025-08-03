@@ -67,6 +67,7 @@ const Reminder = () => {
               name={reminder.name}
               done={reminder.completed}
               deleteClick={(e) => deleteReminder(e, reminder.id)}
+              completedClick={() => { }}
             />
           ))
         ) : (
